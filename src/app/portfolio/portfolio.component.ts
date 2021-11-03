@@ -13,11 +13,16 @@ export class PortfolioComponent implements OnInit {
   showGallery(index: number = 0) {
       let prop: any = {};
       prop.images = [
-          {path: '/assets/photo-1547691889-841a6f1c5ca6.jpg'},
-          {path: '/assets/photo-1548625149-9129dad5eef7.jpg'},
-          {path: '/assets/photo-1548625149-d37da68f9a7f.jpg'},
-          {path: '/assets/photo-1487819162750-4a48cfbf83b0.jpg'},
-          {path: '/assets/photo-1489365091240-6a18fc761ec2.jpg'}
+        {path: '/assets/brunavs/a0txc-hgjps.jpg'},
+        {path: '/assets/brunavs/a26go-cewpm.jpg'},
+        {path: '/assets/brunavs/a7oqr-bl83z.jpg'},
+        {path: '/assets/brunavs/a8skb-9a3jo.jpg'},
+        {path: '/assets/brunavs/ab45w-8fidg.jpg'},
+        {path: '/assets/brunavs/allv2-1opd2.jpg'},
+        {path: '/assets/brunavs/anmnp-xgcdt.jpg'},
+        {path: '/assets/brunavs/anor7-ppxmp.jpg'},
+        {path: '/assets/brunavs/ao3kg-ih322.jpg'},
+        {path: '/assets/brunavs/aqqsl-wgxwe.jpg'}
       ];
       prop.index = index;
       this.gallery.load(prop);
