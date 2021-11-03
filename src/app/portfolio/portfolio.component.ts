@@ -15,13 +15,10 @@ export class PortfolioComponent implements OnInit {
       prop.images = [
         {path: '/assets/brunavs/a0txc-hgjps.jpg'},
         {path: '/assets/brunavs/a26go-cewpm.jpg'},
-        {path: '/assets/brunavs/a7oqr-bl83z.jpg'},
-        {path: '/assets/brunavs/a8skb-9a3jo.jpg'},
         {path: '/assets/brunavs/ab45w-8fidg.jpg'},
         {path: '/assets/brunavs/allv2-1opd2.jpg'},
         {path: '/assets/brunavs/anmnp-xgcdt.jpg'},
         {path: '/assets/brunavs/anor7-ppxmp.jpg'},
-        {path: '/assets/brunavs/ao3kg-ih322.jpg'},
         {path: '/assets/brunavs/aqqsl-wgxwe.jpg'}
       ];
       prop.index = index;
